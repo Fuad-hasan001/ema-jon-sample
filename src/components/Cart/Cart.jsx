@@ -6,7 +6,7 @@ const Cart = ({cart}) => {  //option 3
 
     //const {cart} = props; //option 2
 
-    console.log(cart);
+    // console.log(cart);
 
     // cart calculation
     let totalPrice = 0;
@@ -18,7 +18,7 @@ const Cart = ({cart}) => {  //option 3
 
     const tax = totalPrice*7/100 ;
 
-    const grandTotal = totalPrice + totalShipping + tax ;
+    const grandTotal  = totalPrice + totalShipping + tax ;
 
 
     return (
